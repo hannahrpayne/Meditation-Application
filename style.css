@@ -33,6 +33,7 @@
     left: 50%;
     transform: translate(-50%, -50%) rotate(-90deg);
     pointer-events: none;
+    object-fit: cover;
 }
 
 .time-display{
@@ -49,6 +50,8 @@ video{
     left: 0%;
     width: 100%;    
     z-index: -10;
+    height: 100%;
+    object-fit: cover;
 }
 
 .time-select button,
